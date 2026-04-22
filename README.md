@@ -12,6 +12,8 @@ Osnovni voden pristop brez dodatne optimizacije.
 
 Rezultati: [SP-R100](results/SP-R100)
 
+![plot_GP-R100-F2.png](results/GP-R100-F2/plot_GP-R100-F2.png)
+
 ### Drugi experiment (GP-R100-F2 - Optimizacija)
 Voden pristop z uporabo Focal Search (faktor 2) za hitrejše reševanje konfliktov.
 - **Kompilacija:**
@@ -21,7 +23,7 @@ Voden pristop z uporabo Focal Search (faktor 2) za hitrejše reševanje konflikt
   ./build-focal/lifelong --inputFile guided-pibt/benchmark-lifelong/sortation_small_0_800.json --planTimeLimit 10 --output results/GP-R100-F2/output_focal_100.json -l results/GP-R100-F2/log_focal_100.txt
 
 Rezultati: [GP-R100-F2](results/GP-R100-F2)
-
+![plot_SP-R100.png](results/SP-R100/plot_SP-R100.png)
 ---
 
 ## 2. Opis datotek in ključnih vrednosti
