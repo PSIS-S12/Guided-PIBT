@@ -1,0 +1,11 @@
+First experiment (SP-R100 - Baseline):
+cmake -B build-gp ./guided-pibt -DGUIDANCE=ON -DGUIDANCE_LNS=OFF -DFLOW_GUIDANCE=OFF -DINIT_PP=ON -DRELAX=100 -DOBJECTIVE=1 -DFOCAL_SEARCH=OFF -DCMAKE_BUILD_TYPE=RELEASE
+make -C build-sp
+
+/build-gp/lifelong --inputFile guided-pibt/benchmark-lifelong/sortation_small_0_800.json --planTimeLimit 10 --output results/SP-R100/output_gp_100.json -l results/SP-R100/log_gp_100.txt
+
+Second experiment (GP-R100-F2 (Voden pristop z optimizacijo)):
+cmake -B build-focal ./guided-pibt -DGUIDANCE=ON -DGUIDANCE_LNS=OFF -DFLOW_GUIDANCE=OFF -DINIT_PP=ON -DRELAX=100 -DOBJECTIVE=1 -DFOCAL_SEARCH=2 -DCMAKE_BUILD_TYPE=RELEASE
+make -C build-focal
+
+./build-focal/lifelong --inputFile guided-pibt/benchmark-lifelong/sortation_small_0_800.json --planTimeLimit 10 --output results/GP-R100-F2/output_focal_100.json -l results/GP-R100-F2/log_focal_100.txt

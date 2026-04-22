@@ -1,3 +1,4 @@
+#include <cstdint>
 #ifndef WARTHOG_PQUEUE_H
 #define WARTHOG_PQUEUE_H
 
