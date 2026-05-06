@@ -41,3 +41,14 @@ Podroben dnevnik dogodkov (Event Log) za vsak časovni korak.
 - **Movement:** Premiki agentov med koordinatami.
 - **Task Completion:** Točen čas dosega cilja.
 - **Wait/Conflict:** Beleženje zastojev, ko agenti čakajo zaradi blokiranih poti.
+
+---
+
+# Eksperiment na isti mapi
+| Agenti | Throughput | Timesteps (makespan) | Collisions | Avg time (planner) | Targets reached |
+| ------ | ---------- | -------------------- | ---------- | ------------------ | --------------- |
+| 8      | 0.20996    | 256                  | 0          | 0.0004069          | 53.75           |
+| 16     | 0.38867    | 256                  | 0          | 0.0004429          | 99.50           |
+| 32     | 0.74043    | 256                  | 0          | 0.0005547          | 189.55          |
+| 64     | 1.34570    | 256                  | 0          | 0.0007228          | 344.50          |
+| 128    | 2.57734    | 256                  | 0          | 0.0011463          | 659.80          |
