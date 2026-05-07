@@ -1,0 +1,77 @@
+=== 8 AGENTOV === 
+{
+  "runs": 20,
+  "valid_runs": 20.0,
+  "avg_throughput": 0.21015625,
+  "avg_task_completion_ratio": 0.0538,
+  "avg_collision_count": 0,
+  "avg_makespan": 256,
+  "avg_planner_time": 0.0004389410591796875,
+  "max_planner_time_overall": 0.007439011,
+  "min_throughput": 0.1875,
+  "max_throughput": 0.23828125
+}
+
+
+=== 16 AGENTOV === 
+{
+  "runs": 20,
+  "valid_runs": 20.0,
+  "avg_throughput": 0.39296875,
+  "avg_task_completion_ratio": 0.1006,
+  "avg_collision_count": 0,
+  "avg_makespan": 256,
+  "avg_planner_time": 0.0004790355595703125,
+  "max_planner_time_overall": 0.007668181,
+  "min_throughput": 0.36328125,
+  "max_throughput": 0.42578125
+}
+
+
+
+=== 32 AGENTOV === 
+{
+  "runs": 20,
+  "valid_runs": 20.0,
+  "avg_throughput": 0.7421875,
+  "avg_task_completion_ratio": 0.19,
+  "avg_collision_count": 0,
+  "avg_makespan": 256,
+  "avg_planner_time": 0.0005839978634765625,
+  "max_planner_time_overall": 0.008964094,
+  "min_throughput": 0.68359375,
+  "max_throughput": 0.80859375
+}
+
+
+
+=== 64 AGENTOV ===
+{
+  "runs": 20,
+  "valid_runs": 20.0,
+  "avg_throughput": 1.3576171875,
+  "avg_task_completion_ratio": 0.34754999999999997,
+  "avg_collision_count": 0,
+  "avg_makespan": 256,
+  "avg_planner_time": 0.0009005597873046875,
+  "max_planner_time_overall": 0.016386199,
+  "min_throughput": 1.28515625,
+  "max_throughput": 1.4140625
+}
+
+
+
+=== 128 AGENTOV ===
+{
+  "runs": 20,
+  "valid_runs": 20.0,
+  "avg_throughput": 2.5802734375,
+  "avg_collision_count": 0,
+  "avg_makespan": 256,
+  "avg_planner_time": 0.0011936752169921874,
+  "max_planner_time_overall": 0.0293965,
+  "min_throughput": 2.37890625,
+  "max_throughput": 2.7109375
+}
+
+ 
